@@ -1,0 +1,104 @@
+% New command define your own information
+\newcommand{\shortmajor}{MASTER CORO-IMARO} % Change to your own major
+\newcommand{\fullmajor}{CONTROL and ROBOTICS} % Change to your own major
+\newcommand{\graduationyear}{2022 / 2023} % Change to your graduation year
+\newcommand{\name}{FirstName LastName} % Change to your own Name
+\newcommand{\presentationdate}{31/07/2023} % Change to your own presentation date
+\newcommand{\topic}{Your Topic} % Change to your own topic
+
+\newcommand{\peoplewithposition}[2]{& #1 & #2}
+% Change to your own evaluators and supervisors
+\newcommand{\evaluatorone}{\peoplewithposition{Evaluator1}{Position}}
+\newcommand{\evaluatortwo}{\peoplewithposition{Evaluator2}{Position}}
+\newcommand{\supervisorone}{\peoplewithposition{Supervisor1}{Position}}
+\newcommand{\supervisortwo}{\peoplewithposition{Supervisor2}{Position}}
+
+
+
+
+
+
+
+
+
+
+\thispagestyle{empty}
+
+\def\lskip{\vspace{0.5cm}}
+
+% Select header style
+% 1. word
+% \begin{tabular}{p{7cm}p{8cm}}
+% ÉCOLE CENTRALE DE NANTES
+% \end{tabular}
+
+% 2. One ECN LOGO
+% \begin{minipage}[b]{0.6\linewidth}
+% \includegraphics[height=2cm, width=4.5cm]{Figures/LogoECN.png}
+% \end{minipage}
+
+% 3. Two LOGOS
+\begin{minipage}[b]{0.6\linewidth}
+\includegraphics[height=1.5cm, width=3.8cm]{Figures/LogoECN.png}
+\end{minipage}
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[height=1.5cm, width=5cm]{Figures/Logoex.png}
+\end{minipage}
+
+
+\vspace{2cm}
+
+% CORO-IMARO students
+\begin{center} \large\sc \shortmajor \\ \normalsize{``\fullmajor''} \end{center}
+
+% EMARO students
+%\begin{center} \large\sc MASTER ERASMUS MUNDUS \\ \normalsize{EMARO+ ``European Master in Advanced Robotics''} \end{center}
+
+
+\begin{center}
+	\graduationyear \\
+	\lskip
+	Master Thesis Report
+ % or bibliography report
+	\lskip
+	
+	Presented by \lskip 
+	
+	\name \lskip
+	
+	On \presentationdate \lskip\lskip
+	
+	{\Large \textbf{\topic}}
+	
+	\vfill
+
+Jury \lskip
+		
+	\end{center}
+	
+
+
+\begin{tabular}{p{3cm}p{7cm}p{5cm} }
+ % President: & Name & Position (Institution) \\ & & \\     % for final defense only (not bibliography)
+ Evaluators:  \evaluatorone \\
+	      \evaluatortwo \\ 
+\vspace{0.0cm} \\
+
+  Supervisor(s):  \supervisorone \\
+		  \supervisortwo \\
+% EMARO students only
+%(EMARO)  & Co-supervisor from M1 & Position, M1 institution 
+\end{tabular}
+
+\lskip
+
+\begin{flushleft}
+ % Laboratory: Laboratoire des Sciences du Numérique de Nantes LS2N
+\end{flushleft}
+
+\newpage
+\thispagestyle{empty}
+\null
+\newpage
+\addtocounter{page}{-1}
+\pagestyle{fancy}

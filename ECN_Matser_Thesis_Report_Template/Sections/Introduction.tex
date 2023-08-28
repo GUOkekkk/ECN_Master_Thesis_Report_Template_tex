@@ -1,0 +1,72 @@
+ \chapter*{Introduction}
+ \addcontentsline{toc}{chapter}{Introduction}	 % non-numbered chapters do not appear
+
+Table.\ref{tab:ex} is an example table.
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{2cm}|p{3cm}|p{5cm}|}
+\hline
+Short Name & Part of Speech & Description \\
+\hline
+/N         & Nouns          & Words that represent people, places, things, or ideas. \\
+/V         & Verbs          & Words that describe actions or states. \\
+/AJ        & Adjectives     & Words that describe nouns. \\
+/AV        & Adverbs        & Words that modify verbs, adjectives, or other adverbs. \\
+/PN        & Pronouns       & Words that replace nouns. \\
+/CJ        & Conjunctions   & Words that connect clauses or phrases. \\
+/PP        & Prepositions   & Words that show the relationship between a noun (or pronoun) and other words in a sentence. \\
+/IJ        & Interjections  & Words or expressions that convey strong emotion or reaction. \\
+\hline
+\end{tabular}
+\caption{Table Example}
+\label{tab:ex}
+\end{table}
+
+\noindent
+Eq.\ref{eq:ex} is an example equation.
+\begin{equation}
+\label{eq:ex}
+\begin{aligned}
+\text{MultiHead}(Q, K, V) & = \text{Concat}(\text{head}_1, \ldots, \text{head}_h) W^O \\
+\text{where} \, \text{head}_i & = \text{Attention}(Q W^Q_i, K W^K_i, V W^V_i)
+\end{aligned}
+\end{equation}
+% example
+
+\noindent
+Algorithm \ref{alg:ElephantFridge} is an example pseudocode.\\
+
+\noindent
+Fig.\ref{fig:ex} is an example plot.
+\begin{figure}[H]\centering
+  \includegraphics[width=0.5\linewidth]{Figures/LogoECN.png}
+  \caption{Example Plot} 
+  \label{fig:ex}
+\end{figure}
+
+
+% When we want to cite some reference, import its BibTex to bibliography.bib first
+\noindent
+Fig.\ref{fig:ex_sub} is an example subplot. Fir.\ref{fig:ex_sub2} is the Logo of Avengers\cite{arbi2021character}. We could choose to use upcite like \upcite{arbi2021character}.
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/LogoECN.png}
+        \subcaption{Example Subplot1}
+        \label{fig:ex_sub1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/Logoex.png}
+        \subcaption{Example Subplot2\cite{arbi2021character}}
+        \label{fig:ex_sub2}
+    \end{subfigure}
+    \caption{Example Subplot}
+    \label{fig:ex_sub}
+\end{figure}
+
+\noindent
+I prefer to use the blocked format for the content.\\
+
+\noindent
+That is, the first word of each paragraph is written without indent, and with a blank line between paragraphs.
