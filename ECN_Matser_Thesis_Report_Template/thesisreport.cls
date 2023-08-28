@@ -23,14 +23,12 @@
 \usepackage{lipsum}
 \usepackage{algorithm}
 \usepackage{algorithmic}
-\usepackage{algpseudocode}
+% \usepackage{algpseudocode}
 \usepackage{subcaption}
 
 
 \renewcommand{\algorithmicrequire}{ \textbf{Input:}}     %Use Input in the format of Algorithm
 \renewcommand{\algorithmicensure}{ \textbf{Output:}}    %UseOutput in the format of Algorithm
-\algnewcommand\algorithmicprocess{\textbf{Process:}}
-\algnewcommand\PROCESS{\item[\algorithmicprocess]}
 \newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{ \cite{#1}}}}
 
 \newenvironment{breakablealgorithm}
