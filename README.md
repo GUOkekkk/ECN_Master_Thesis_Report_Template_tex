@@ -2,6 +2,6 @@
 This is a template of [ECN](https://www.ec-nantes.fr/) master thesis report. If you have any questions or updates, feel free to propose issues or PR. I will try to maintain this repository.
 
 
-The [Overleaf link]().
+The [Overleaf link](https://www.overleaf.com/latex/templates/ecn-matser-thesis-report-template/tpvnttqrcgxz).
 
 Thanks to the original template from [Prof.Kermorgant](https://github.com/oKermorgant/ecn_templates)
